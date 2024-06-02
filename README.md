@@ -1,50 +1,71 @@
-# Welcome to your Expo app 👋
+# Pet Viewer App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A simple React Native application to list pets and view details about a selected pet. This application demonstrates fetching data from a mock API, using a dropdown to select pets, and displaying detailed information using a modern UI.
 
-## Get started
+## Table of Contents
 
-1. Install dependencies
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Running the App](#running-the-app)
+- [Technologies Used](#technologies-used)
+- [Screenshots](#screenshots)
+
+## Features
+
+- List of pets fetched from a mock API.
+- Dropdown to select a pet by name.
+- Display details of the selected pet, including name, type, breed, weight, and color.
+- Modern UI using React Native Paper.
+
+## Prerequisites
+
+- Node.js and npm installed on your machine.
+- Expo CLI installed globally (`npm install -g expo-cli`).
+
+## Installation
+
+1. Clone the repository:
 
    ```bash
-   npm install
+   git clone https://github.com/zeeshan-akhter/pet-viewer-app.git
+   cd pet-viewer-app
    ```
 
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+2. Install dependencies:
 
 ```bash
-npm run reset-project
+npm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+3. If you haven't already, install the Expo CLI:
 
-## Learn more
+```bash
+npm install -g expo-cli
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+## Running the App
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+1. Start the development server:
 
-## Join the community
+```bash
+expo start
+```
 
-Join our community of developers creating universal apps.
+2. Use the Expo Go app on your mobile device to scan the QR code and view the application.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Technologies Used
+
+- React Native: A framework for building native apps using React.
+- Expo: A framework and platform for universal React applications.
+- TypeScript: A typed superset of JavaScript that compiles to plain JavaScript.
+- React Native Paper: A high-quality, standard-compliant Material Design library for React Native.
+
+## Screenshots
+
+- Screenshot 1
+  ![Screenshot1](./assets/screenshots/ss1.jpg)
+- Screenshot 2
+  ![Screenshot2](./assets/screenshots/ss2.jpg)
+- Screenshot 3
+  ![Screenshot3](./assets/screenshots/ss3.jpg)
