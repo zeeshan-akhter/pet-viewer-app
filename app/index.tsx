@@ -23,7 +23,7 @@ const Index: React.FC = () => {
   const [selectedPet, setSelectedPet] = useState<Pet | null>(null);
 
   useEffect(() => {
-    fetch("https://petviewer.free.beeceptor.com/")
+    fetch("https://petdata.free.beeceptor.com/pets")
       .then((response) => response.json())
       .then((data) => setPets(data))
       .catch((error) => console.error("Error fetching pet data:", error));
